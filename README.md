@@ -1,6 +1,5 @@
 # golang generic 
 
-
 func TestMin(t *testing.T) {
 	t.Log("test begin")
 	{
