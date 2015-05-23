@@ -7,7 +7,6 @@ func TestMin(t *testing.T) {
 		min := Min("int")
 		t.Log("min(9, 10) =", min(9, 10))
 	}
-
 	t.Log("test check type")
 	{
 		var min func(a, b int) int
