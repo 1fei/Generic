@@ -2,6 +2,7 @@
 
 
 func TestMin(t *testing.T) {
+
 	t.Log("test begin")
 	{
 		min := Min("int")
@@ -22,4 +23,5 @@ func TestMin(t *testing.T) {
 		var ret string = min("10", "8")
 		t.Log("ret = ", ret)
 	}
+	
 }
